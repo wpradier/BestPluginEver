@@ -4,7 +4,7 @@ It really is the best plugin ever.
 # Prerequisites
 You need zsh to be your command interpreter and a .zshrc file for the Best Plugin Ever to work.
 
-(installing zsh:)
+installing zsh:
 ```shell
 sudo apt-get install zsh
 ```
