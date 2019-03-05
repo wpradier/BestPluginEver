@@ -2,7 +2,7 @@
 It really is the best plugin ever.
 
 # Prerequisites
-You need a .zshrc file for the Best Plugin Ever to work.
+You need zsh and a .zshrc file for the Best Plugin Ever to work.
 
 # Installing
 Just copy this shit in your terminal:
@@ -11,7 +11,7 @@ git clone https://github.com/wpradier/BestPluginEver.git ~/.BePlEv && sh ~/.BePl
 ```
 
 # Congratulations !
-You may now feel fullfilled as a developper.
+You may now feel fulfilled as a developper.
 
 # Uninstalling
 If you feel like this plugin did not fill the hole Karen left in your heart 5 years ago, you may copy this shit in your terminal:
