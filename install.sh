@@ -1,1 +1,1 @@
-echo 'alias kekette="sh ~/.BePlEv/aouioui.sh"' >> ~/.zshrc && source ~/.zshrc
+echo 'alias kekette="sh ~/.BePlEv/aouioui.sh"' >> ~/.zshrc
