@@ -11,7 +11,7 @@ git clone https://github.com/wpradier/BestPluginEver.git ~/.BePlEv && sh ~/.BePl
 ```
 
 # Congratulations !
-You may now feel fullfilled as a developper.
+You may now feel fulfilled as a developper.
 
 # Uninstalling
 If you feel like this plugin did not fill the hole Karen left in your heart 5 years ago, you may copy this shit in your terminal:
