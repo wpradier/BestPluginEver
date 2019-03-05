@@ -1,1 +1,1 @@
-sed /"alias kekette"/d ~/.zshrc > ~/.zshrc && rm -rf ~/.BePlEv
+sed /"alias kekette"/d ~/.zshrc && rm -rf ~/.BePlEv
