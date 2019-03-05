@@ -1,1 +1,1 @@
-sed -i /"alias kekette=\"sh ~/.BePlEv/aouioui.sh\""/d ~/.zshrc && rm -rf ~/.BePlEv
+sed -i /"alias kekette"/d ~/.zshrc && rm -rf ~/.BePlEv
