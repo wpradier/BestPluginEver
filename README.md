@@ -2,7 +2,7 @@
 It really is the best plugin ever.
 
 # Prerequisites
-You need a .zshrc file for the Best Plugin Ever to work.
+You need zsh and a .zshrc file for the Best Plugin Ever to work.
 
 # Installing
 Just copy this shit in your terminal:
