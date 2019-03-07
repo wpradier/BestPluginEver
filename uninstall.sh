@@ -1,10 +1,10 @@
 #!/bin/bash
 
-local VERSION=""
+VERSION_=""
 
 if [ "$SHELL" == "/bin/zsh" ]; then
-	VERSION="~/.zshrc"
+	VERSION_="~/.zshrc"
 elif [ "$SHELL" == "/bin/bash" ]; then
-	VERSION="~/.bashrc"
+	VERSION_="~/.bashrc"
 
-sed -i '.bak' /"alias kekette"/d $VERSION && rm -rf ~/.BePlEv
+sed -i '.bak' /"alias kekette"/d $VERSION_ && rm -rf ~/.BePlEv
