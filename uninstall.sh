@@ -8,4 +8,4 @@ elif [ -n `echo $SHELL | grep bash` ]; then
 	VERSION_="$HOME/.bashrc"
 fi
 
-sed -i '.bak' /"alias kekette"/d $VERSION_ && rm -rf ~/.BePlEv
+sed -i '.bak' /"alias kekette"/d $VERSION_ && source $VERSION_ ; rm -rf ~/.BePlEv
