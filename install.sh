@@ -11,4 +11,4 @@ else
 	~/.BePlEv/uninstall.sh
 	exit
 fi
-echo 'alias kekette="~/.BePlEv/aouiouiX.sh"' >> $VERSION_
+echo 'alias kekette="~/.BePlEv/aouiouiX.sh"' >> $VERSION_ && source $VERSION_
