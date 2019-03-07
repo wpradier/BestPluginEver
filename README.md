@@ -4,6 +4,11 @@ It really is the best plugin ever.
 # Prerequisites
 You need bash or zsh to be your command interpreter for the Best Plugin Ever to work.
 
+If you want this plugin to be at it's full potential, you should have paplay installed:
+```shell
+sudo apt-get install pulseaudio-utils
+```
+
 # Installing
 Just copy this shit in your terminal:
 ```shell
