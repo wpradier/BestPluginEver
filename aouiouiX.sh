@@ -95,12 +95,8 @@ magic_run()
 usage()
 
 {
-
 	printf "usage: kekette -c <couleur>\n"
-
-	printf "       kekette [-c couleur]\n"
-
-	
+	printf "       kekette -m\n"
 }
 
 
