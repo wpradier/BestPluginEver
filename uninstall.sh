@@ -2,9 +2,9 @@
 
 VERSION_=""
 
-if [ "$SHELL" == "/bin/zsh" ]; then
-	VERSION_="~/.zshrc"
-elif [ "$SHELL" == "/bin/bash" ]; then
-	VERSION_="~/.bashrc"
+if [ -n `echo $SHELL | grep zsh` ]; then
+	VERSION_="$HOME/.zshrc"
+elif [ -n `echo $SHELL | grep bash` ]; then
+	VERSION_="$HOME/.bashrc"
 
 sed -i '.bak' /"alias kekette"/d $VERSION_ && rm -rf ~/.BePlEv
