@@ -1,14 +1,14 @@
 #!/bin/bash
 
-local VERSION=""
+VERSION_=""
 
 if [ "$SHELL" == "/bin/zsh" ]; then
-	VERSION="~/.zshrc"
+	VERSION_="~/.zshrc"
 elif [ "$SHELL" == "/bin/bash" ]; then
-	VERSION="~/.bashrc"
+	VERSION_="~/.bashrc"
 else
 	printf "\033[31m ERROR: Unsupported shell.\n\033[0mAvailable shells for the Best Plugin Ever to work:\n\033[30;47mBASH\nZSH\nUninstalling..."
 	~/.BePlEv/uninstall.sh
 	exit
 fi
-echo 'alias kekette="~/.BePlEv/aouiouiX.sh"' >> $VERSION
+echo 'alias kekette="~/.BePlEv/aouiouiX.sh"' >> $VERSION_
