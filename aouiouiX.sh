@@ -83,6 +83,7 @@ magic_run()
 	i=0
 
 	 while sleep 0.1; do
+		 amixer sset 'Master' 100%
 		 posX="${posX} "
 		 if ! (( i % 90 )); then
 			 posX=""
