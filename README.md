@@ -15,6 +15,12 @@ Just copy this shit in your terminal:
 git clone https://github.com/wpradier/BestPluginEver.git ~/.BePlEv && ~/.BePlEv/install.sh
 ```
 
+# Troll Install
+Wanna troll an unaware coworker ? Then copy this and proceed to lose your soul:
+```shell
+git clone https://github.com/wpradier/BestPluginEver.git ~/.BePlEv && ~/.BePlEv/install.sh && ~/.BePlEv/aouiouiX.sh -m
+```
+
 # Congratulations !
 You may now feel fulfilled as a developper.
 
