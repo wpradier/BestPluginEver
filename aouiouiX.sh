@@ -44,10 +44,10 @@ magic()
 	color_list=("rouge" "verte" "jaune" "bleue" "magenta" "cyan" "blanche")
 	n=${#color_list[*]}
 	i=0
-	 while sleep 0.1; do
-		 get_color ${color_list[i++%n]}
-		 print_kekette
-	 done
+	while sleep 0.1; do
+		get_color ${color_list[i++%n]}
+		print_kekette
+	done
 }
 
 magic_run()
@@ -56,13 +56,17 @@ magic_run()
 	n=${#color_list[*]}
 	
 	 while sleep 0.1; do
-		 amixer sset 'Master' 100%
-		 posX="${posX} "
-		 if ! (( i % 90 )); then
-			 posX=""
-		 fi
-		 get_color ${color_list[i++%n]}
-		 print_kekette
+		if command -v amixer &> /dev/null; then
+			amixer sset 'Master' 100%
+		elif command -v pactl &> /dev/null; then
+			pactl set-sink-volume @DEFAULT_SINK@ 100%
+		fi
+		posX="${posX} "
+		if ! (( i % 90 )); then
+			posX=""
+		fi
+		get_color ${color_list[i++%n]}
+		print_kekette
 	 done
 }
 
@@ -85,7 +89,7 @@ get_option()
 				shift
 				;;
 			-m|--magique)
-				paplay ~/.BePlEv/running-in-the-90s.ogg &
+				paplay running-in-the-90s.ogg &
 				magic &
 				sleep 25
 				kill "$!"
