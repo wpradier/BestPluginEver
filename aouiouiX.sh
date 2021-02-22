@@ -89,7 +89,7 @@ get_option()
 				shift
 				;;
 			-m|--magique)
-				paplay running-in-the-90s.ogg &
+				paplay ${BASH_SOURCE%/*}/running-in-the-90s.ogg &
 				magic &
 				sleep 25
 				kill "$!"
